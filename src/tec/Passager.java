@@ -8,5 +8,6 @@ interface Passager {
   public void accepterPlaceAssise();
   public void accepterPlaceDebout();
   public void nouvelArret(Bus bus, int numeroArret);
+void monterDans(Transport t);
 }
 

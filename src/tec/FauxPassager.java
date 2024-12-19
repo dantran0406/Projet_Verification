@@ -30,9 +30,10 @@ public class FauxPassager implements Passager {
 
   @Override
   public void accepterSortie() {
-    message = ":accepterSortie:";
-    status = DEHORS;
+      message = ":accepterSortie:";
+      status = DEHORS;  
   }
+
 
   @Override
   public void accepterPlaceAssise() {
@@ -55,4 +56,5 @@ public class FauxPassager implements Passager {
   public void monterDans(Transport t) {
 	  //throws UsagerInvalideException 
   }
+
 }

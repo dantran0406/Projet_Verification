@@ -58,4 +58,7 @@ public class FauxPassager implements Passager {
   }
 
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> e58cc2426ec413ac939cc099da2cd785c7d88bc2
